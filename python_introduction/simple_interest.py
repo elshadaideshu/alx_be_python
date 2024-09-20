@@ -1,5 +1,5 @@
-p = 1000
-r = 0.05
-t = 3
-i = p*r*t
-print ("The simple interest is :", i)
+P = 1000
+R = 0.05
+T = 3
+I = P*R*T
+print ("The simple interest is :", I)
