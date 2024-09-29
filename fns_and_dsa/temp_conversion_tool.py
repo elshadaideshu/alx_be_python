@@ -1,10 +1,10 @@
-# global variable
+# Global conversion factors
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
 CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
 
 def convert_to_celsius(fahrenheit):
     """
-    Converts Fahrenheit to Celsius using the global variable.
+    Converts Fahrenheit to Celsius using the global conversion factor.
 
     Parameters:
     fahrenheit (float): Temperature in Fahrenheit.
@@ -16,7 +16,7 @@ def convert_to_celsius(fahrenheit):
 
 def convert_to_fahrenheit(celsius):
     """
-    Converts Celsius to Fahrenheit using the global variable.
+    Converts Celsius to Fahrenheit using the global conversion factor.
 
     Parameters:
     celsius (float): Temperature in Celsius.
